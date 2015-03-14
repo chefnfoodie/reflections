@@ -7,3 +7,6 @@ When we initialize a repository in our local directory with .git class in it the
 use git add to add files to intermediate staging area from working directory to commiting in repository.then use git commit to repository.
 
 git reset can remove the files from staging area.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It allows us to see what files we are about to commit and delete them if necessary . 
