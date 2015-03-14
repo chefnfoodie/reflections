@@ -1,0 +1,9 @@
+
+
+What happens when you initialize a repository? Why do you need to do it?
+
+When we initialize a repository in our local directory with .git class in it the github uses it as an identifier to checkin.
+
+use git add to add files to intermediate staging area from working directory to commiting in repository.then use git commit to repository.
+
+git reset can remove the files from staging area.

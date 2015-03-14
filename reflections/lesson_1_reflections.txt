@@ -1,0 +1,23 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+
+used diff -u for comparing the old and new files in mac.the - sign denotes old lines that required change and were removed and + sign the lines that were changed in new file.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+it helps save backup to revert if u have an error in the new one and helps track changes when comparing with another person’s work.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+i ‘ll know which version to search for once I’ve updated changes in the messages in Git and it avoids clutter as in the case of unnecessary versions created without a logical change involved.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+because of interdepencies between files for each version.
+
+How can you use the commands git log and git diff to view the history of files?
+Used git log to view the various commits with their serial ids, git diff to compare the the changes made between different commits.
+
+How might using version control make you more confident to make changes that could break something?
+we could use the  git checkout serialno of the particular version to see where the bug has been introduced and use git diff between new and old versions to see which line change has caused the error. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Tracking the various stages of my project with respect to the effect on changes made to it.,being able to spot a bug and revert to the previous status etc.
