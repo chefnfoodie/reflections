@@ -14,3 +14,6 @@ It allows us to see what files we are about to commit and delete them if necessa
 How can you use the staging area to make sure you have one commit per logical change?
 we can use the git diff  and git diff —staged to see the differences of staging area with working directory and commit 1 of repository.Any extra untracked changes can be git reset.
  
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches would be useful in situations where we need the different versions of of something which would probably do the same logical operation catering to a different purpose or people.Instead of doing linear commits for different versions with same code branches help the purpose.
