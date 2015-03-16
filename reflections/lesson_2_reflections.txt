@@ -20,3 +20,4 @@ Branches would be useful in situations where we need the different versions of o
 
 How do the diagrams help you visualize the branch structure?
 it gives a clear picture of the order of which commits were entered  and what work was done collaboratively and helps trace it.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?It is to incorporate new development or changes made by people into the master branch /main working project.we represent in diagramm to know what commits are accessible from where.
