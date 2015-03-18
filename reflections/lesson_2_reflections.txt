@@ -2,25 +2,28 @@
 
 What happens when you initialize a repository? Why do you need to do it?
 
-When we initialize a repository in our local directory with .git class in it the github uses it as an identifier to checkin.
+This creates a new subdirectory named .git that contains all of your necessary repository files.
 
 use git add to add files to intermediate staging area from working directory to commiting in repository.then use git commit to repository.
 
 git reset can remove the files from staging area.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-It allows us to see what files we are about to commit and delete them if necessary .
+It allows us to see what changes are to be shipped to the repository  before we commit or delete them if necessary .
 
 How can you use the staging area to make sure you have one commit per logical change?
+We use git add to add files to intermediate staging area from working directory to commiting in repository.then use git commit to repository.
+
 we can use the git diff  and git diff —staged to see the differences of staging area with working directory and commit 1 of repository.Any extra untracked changes can be git reset.
  
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-Branches would be useful in situations where we need the different versions of of something which would probably do the same logical operation catering to a different purpose or people.Instead of doing linear commits for different versions with same code branches help the purpose.It helps to work on separate features collaboratively.
+Branches would be useful in situations where we need the different versions  of something which would probably do the same logical operation catering to a different purpose or people.Instead of doing linear commits for different versions with same code branches help the purpose.It helps to work on separate features collaboratively.
 
 How do the diagrams help you visualize the branch structure?
-it gives a clear picture of the order of which commits were entered  and what work was done collaboratively and helps trace it.
-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?It is to incorporate new development or changes made by people into the master branch /main working project.we represent in diagramm to know what commits are accessible from where.
+It gives a clear picture of the order of which commits were entered  and what work was done collaboratively and helps trace it.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.It is to incorporate new development or changes made by people into the master branch /main working project.We represent it in a diagram to know what commits are accessible from which node/commit.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-the issues can be resolved by conflicting same name functions of two people and then done manually.
+The issues can be resolved by conflicting same name functions of two people and then done manually.
