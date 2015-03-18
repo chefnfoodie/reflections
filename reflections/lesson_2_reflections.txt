@@ -26,4 +26,4 @@ What is the result of merging two branches together? Why do we represent it in t
 The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.It is to incorporate new development or changes made by people into the master branch /main working project.We represent it in a diagram to know what commits are accessible from which node/commit.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-The issues can be resolved by conflicting same name functions of two people and then done manually.
+Automatic merging fails sometimes because you have committed changes that are in conflict with someone else's committed changes.the automatic merge works best with short-lived branches and not for older ones which are likely to have more conflicts.Manual merge allows to resolve conflicts and choose the destination branch to merge. 
